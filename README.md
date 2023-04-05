@@ -1,0 +1,1 @@
+create yt assets from a transcript using the whisper api (file must be less than 25mb)
