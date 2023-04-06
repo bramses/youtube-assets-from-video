@@ -66,7 +66,7 @@ const uploadFile = async (req, res) => {
         messages: [
           {
             role: "user",
-            content: `Can you write an eye-catching title and description for this code-related video? \n\nTitle:\nDescription as question:\nPotential AI art prompt from this transcript (using a random lesser-known art period):\n\n${transcript}`,
+            content: `Can you write an eye-catching title, description and AI art prompt for this transcript? \n\nTitle:\nDescription as question:\nPotential AI art prompt from this transcript (using a random lesser-known art period):\n\n${transcript}`,
           },
         ],
         max_tokens: 1000,
